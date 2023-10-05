@@ -1,0 +1,171 @@
+.seccion-clara {
+    color: #1b1b32;
+    background-color: rgb(255, 255, 255);
+}
+.seccion-oscura {
+    color: white;
+    background-color:#1b1b32}
+/*Barra de Navegacion*/
+
+.navbar {
+    background-color:rgb(226, 232, 238);
+}
+
+.titulo-clinica {
+font-family: 'Great Vibes', cursive;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}*/
+/*Seccion hero*/
+.carousel-inner img {
+    width:100%; height: 49em;
+  }
+
+/*Seccion tratamientos*/
+.tratamiento {
+ padding: 40px 10px 60px 10px;
+}
+.tratamiento .row {
+    height: 320px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+.tratamiento-titulo {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 8px 0;
+}
+.tratamiento .columna {
+    padding: 15px;
+    border: 2px solid #8080804d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+.tratamiento .columna:hover {
+    color: white;
+    background-color: #1b1b32;
+}
+.boton-trtatimiento{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+/* Seccion Testimonio*/
+.testimonios {
+    padding: 80px 40px 80px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimonios .carousel {
+    max-width: 800px;
+}
+.carousel-item .carousel2 {
+    height: 600px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container .testimonio-imagen {
+    height: 250px;
+    width: 250px;
+    margin: 10px 10px 20px 10px;
+}
+
+
+.testimonio-texto {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.testimonio-info p {
+    margin-bottom: 0;
+}
+
+.testimonio-footer .paciente {
+    font-size: 1.2rem;
+}
+
+.testimonio-info .cargo {
+    font-size: 0.9rem;
+    color: #656060;
+}
+/* Piede de Pagina*/
+footer {
+    min-height: 500px;
+}
+
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
+.footer-texto {
+    font-size: 1.5;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.iconos-redes-sociales a {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+    color: white;
+    font-size: 1.5rem;
+    transition: all o.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+ background-color: white;
+ border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: black;
+}
+
+.derechos-de-autor {
+    font-size: 15px;
+    color: #aeaeae;
+    padding: 20px;
+}
+/* Adaptable (Responsivo) */
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}

@@ -1,0 +1,43 @@
+
+.navbar {
+    padding: 0;  
+    color: aliceblue;
+  }
+  .navbar-brand img {
+    width: 12em;
+    height: 100%;
+    overflow: hidden;
+  } 
+.container-fluid {
+    background-color: rgb(22, 6, 49);
+    }
+.barra {
+        float: right;
+        }
+.nav-item {
+    color: aliceblue;
+       }      
+.navbar-brand  {
+            color: aliceblue;
+          }      
+.nav-link {
+    color: aliceblue;
+  }      
+.nav-link:hover {
+    color: rgb(101, 154, 201);
+  }  
+
+
+.nav-link {
+    color: aliceblue;
+  }   
+
+.navbar-active {
+    color: aliceblue;
+  }   
+.navbar-nav {
+    color: aliceblue;
+  }  
+.nav-link.show {
+    color: aliceblue;
+  }  
