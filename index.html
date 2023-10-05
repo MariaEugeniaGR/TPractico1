@@ -1,71 +1,123 @@
 <!doctype html>
 <html lang="es">
   <head>
+    <!--Metadatos-->
     <meta charset="utf-8">
+    <meta name="author" content="Maria Gonzalez">
+    <meta name="description" content="Trabajo practico HTML y CSS">
+    <meta name="keywords" content="HTML, CSS">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>TpIntegrador</title>
+    <!--Titulo-->
+    <title>Dra Gonzalez Ortodoncista</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/descarga (2).png">
+    <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <!--CSS-->
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <!--no
+    <link rel="stylesheet" href="assets/css/clinica.css">
+    <link rel="stylesheet" href="assets/css/tratamientos.css">
+    <link rel="stylesheet" href="assets/css/profecionales.css">
+    <link rel="stylesheet" href="assets/css/contacto.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/baner.css">-->
+  </head>
   <body>
-   
+    <!--Barra de navegacion-->
     <header>
-      </nav>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="assets/img/descarga (1).png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          </a>
-          <a class="navbar-brand" href="#">Clinica de Ortodoncia</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logotipo-ortodoncia-avila-blanco-fotor-bg-remover-20231002211835.png" width="30%" alt="Logo"><h1 class="titulo-clinica">Clinica de Ortodoncia</h1>
+             </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#carouselExampleInterval">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Especialidades
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Ortodoncia y ortopedia</a></li>
-                  <li><a class="dropdown-item" href="#">Ortodoncia en Adulto</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a class="nav-link" href="#clinica">La Clinica</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                <a class="nav-link" href="#tratamientos">Tratamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#especialistas">Profecionales</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
-    </header>
- <!-- seccion BANER-->
- <section>
-  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+     <!--mia <nav class="navbar navbar-expand-md bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">
+            <img src="assets/img/logotipo-ortodoncia-avila-blanco-fotor-bg-remover-20231002211835.png" alt="Logo" class="d-inline-block align-text-top">
+          </a>
+          <a class="navbar-brand" href="#">Clinica de Ortodoncia Dra Gonzalez </a>
+           <div class="barra">
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tratamientos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ortodoncia Invisible</a></li>
+                  <li><a class="dropdown-item" href="#">Backets Metalicos</a></li>
+                  <li><a class="dropdown-item" href="#">Backets Ocultos o linguales</a></li>
+                  <li><a class="dropdown-item" href="#">Ortodoncia Infantil</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Tecnologia // Radiologia</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">La Clinica</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nuestro Equipo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contacto</a>
+              </li>
+            </ul>
+           </div>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+ <!-- seccion Hero-->
+  <section>
+   <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active" data-bs-interval="10000">
-        <img src="assets/img/Ortodoncia-Avila_039.2.jpg" class="d-block w-100" alt="...">
+        <img class="img-fluid" src="assets/img/slider-trabajando.jpg" class="d-block w-100" alt="Clinica">
         <div class="carousel-caption d-none d-md-block">
-          <h5>CLINICA DE ORTODONCIA Dra Maria Gonzalez</h5>
-          <p>ALTAMENTE CUALIFICADOS, CON FORMACION Y EXPERIENCIA EN TODO TIPO DE TRATAMIENTOS DE ORTODONCIA.</p>
+          <h1 class="titulo">CLINICA DE ORTODONCIA Gonzalez</h1>
+          <p>ALTAMENTE CUALIFICADOS, CON FORMACION Y EXPERIENCIA EN TODO TIPO DE TRATAMIENTOS DE ORTODONCIA</p>
         </div>
       </div>
       <div class="carousel-item" data-bs-interval="2000">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="assets/img/clinica-dental-silla-dentista-otros-accesorios-concepto-dental_650851-5076.jpg" class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img src="assets/img/Ortodoncia-Avila_025.2.jpg" class="d-block w-100" alt="clinica">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
@@ -78,82 +130,197 @@
     </button>
   </div>
  </section>
- <!-- seccion Especialidades-->
- <section> 
-  <div class="card text-bg-dark">
-    <img src="..." class="card-img" alt="...">
-    <div class="card-img-overlay">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+ <!-- seccion Tratamientos-->
+ <section id="tratamientos" class="tratamiento seccion-clara"> 
+  <div class="container-fluid text-center">
+    <h2> Nuestros Tratamientos </h2>
+   <div class="row">
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/invisible.png" alt="invisible">
+      <p class="tratamiento-titulo">Ortodoncia Invicible</p>
+      <p> Disfruta de tu sonrisa también durante el tratamiento gracias a la tecnología Invisalign, exclusiva en nuestra clinica de ortodoncia</p>
+      <button class="btn btn-primary" type="submit">Ver Mas</button>
     </div>
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/brackets.png" alt="invisible">
+      <p class="tratamiento-titulo">Brackets</p>
+      <p>Consigue una sonrisa perfecta y una dentadura perfectamente alineada con nuestros tratamientos</p>
+      <button class="btn btn-primary" type="submit">Ver Mas</button>
+    </div>
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/niños.png" alt="invisible">
+      <p class="tratamiento-titulo">Para niños</p>
+      <p> Disfruta de tu sonrisa también durante el tratamiento gracias a la tecnología Invisalign, exclusiva en nuestra clinica de ortodoncia</p>
+      <button class="btn btn-primary" type="submit">Ver Mas</button>
+    </div>
+    <div class="columna col-12 col-md-3">
+      <img class="img-tratamiento" src="assets/img/tecnologia.png" alt="invisible">
+      <p class="tratamiento-titulo">Tecnología // Radiología</p>
+      <p> Disfruta de tu sonrisa también durante el tratamiento gracias a la tecnología Invisalign, exclusiva en nuestra clinica de ortodoncia</p>
+      <button class="btn btn-primary boton-tratamiento" type="submit">Ver Mas</button>
+    </div>
+  </div>
   </div>
  </section>
   <!-- seccion de LA CLINICA -->
-<section> 
-  <div class="card mb-3" style="max-width: 540px;">
+<section id="clinica"> 
+  <div class="card mb-3" style="max-width: 300%;">
     <div class="row g-0">
       <div class="col-md-4">
-        <img src="..." class="img-fluid rounded-start" alt="...">
+        <img src="assets/img/Ortodoncia-Avila_029.2.jpg" class="img-fluid rounded-start" alt="...">
       </div>
       <div class="col-md-8">
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        <div class="card-body1">
+          <h5 class="card-title">Clinica de Ortodoncia Dra Gonzalez Ma Eugenia</h5>
+          <p class="card-text">Somos una clínica de ortodoncia integral formada por un equipo de profesionales especialistas egresados de la Universidad de Argentina y Universidad de Concepción. Nuestra misión es restablecer la estética dentaria y facial, así como también la función y la salud de tus dientes y oclusión.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
  <!-- seccion de ESPECIALISTAS-->
-  <section>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
+  <section id="especialistas">
+    <div class="container-fluid">
+      <h1 class="title">Profecionales cualificados</h1>
+    <div class="row row-cols-1 row-cols-md-4 g-4">
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="assets/img/retrato05-1024x1012.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Dra. Clara Tapia González</h5>
+            <p class="card-text">Especialista de Ortodoncia</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="assets/img/retrato03-1024x1012.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Dr. Ignacio Cardenas</h5>
+            <p class="card-text">Especialista de Ortodoncia</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="assets/img/retrato01-1024x1012.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            <h5 class="card-title">Ana Tapia</h5>
+            <p class="card-text">Aux. de Clinica</p>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card">
-          <img src="..." class="card-img-top" alt="...">
+          <img src="assets/img/retrato02-1024x1012.jpg" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <h5 class="card-title">Beatriz Navarro</h5>
+            <p class="card-text">Higienista dental</p>
           </div>
         </div>
       </div>
     </div>
+  </div>
   </section>
+  <!-- Seccion Testimonio-->
+  <section class="testimonios seccion-clara">
+<h2 class="seccion-titulo">Testimonios</h2>
+<h3 class="seccion-description">Estos son algunos testimonios de nuestros pacientes</h3>
+<div id="testimonios-carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner corousel2">
+    <div class="carousel-item active">
+      <div class="container">
+      <img class="testimonio-imagen rounded-circle" src="assets/img/Diana Silva.jpg" alt="Diana Silva">
+      <p class="testimonio-texto">"No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante." </p>
+      <div class="testimonio-info">
+        <p class="paciente">Diana Silva</p>
+        <p class="cargo">Mis Universo</p>
+      </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="assets/img/testimonio marcos.jpg" alt="Marcos Cardenas">
+        <p class="testimonio-texto">No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante. </p>
+        <div class="testimonio-info">
+          <p class="paciente">Marcos Cardenas</p>
+          <p class="cargo">Mis Universo</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="assets/img/testimonio2.jpg" alt="Marcos Cardenas">
+        <p class="testimonio-texto">No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante. </p>
+        <div class="testimonio-info">
+          <p class="paciente">Marcos Cardenas</p>
+          <p class="cargo">Mis Universo</p>
+        </div>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="assets/img/testimonio luis.jpg" alt="Marcos Cardenas">
+        <p class="testimonio-texto">No tengo más que palabras de agradecimiento. Hice el tratamiento invisalign y estoy más que satisfecha. Feliz es poco, he podido sonreír como nunca y para mí es algo super importante. </p>
+        <div class="testimonio-info">
+          <p class="paciente">Marcos Cardenas</p>
+          <p class="cargo">Mis Universo</p>
+        </div>
+      </div>
+   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguientes</span>
+  </button>
+</div>
+</section>
    <!-- seccion de CONTACTO-->
-  <section>
-
+  <section id="contacto">
+    <div class="container">
+      <h1>Contactanos</h1>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <a href="#" class="btn btn-primary">Enviar</a>
+      </div>
+    </div>
   </section>
-     <!-- FOOTER-->
-   <footer>
-
+     <!--Pie de Pagina FOOTER-->
+   <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+     <img class="footer-logo" src="assets/img/logotipo-ortodoncia-avila-blanco-fotor-bg-remover-20231002211835.png" alt="Logo">
+      <p class="footer-texto text-center">Gonzalez Rangel Mª Eugenia - Wed Developer<br>Codo a codo JAVA-FRONT END ©2023</p>
+       <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://twitter" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://intagram" target="_blank" rel="noopener noreferrer">
+         <i class="bi bi-instagram"></i>
+        </a>
+        <a href="https://twitter" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+        <a href="https://bi-whatsapp" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <a href="mailo:odmariu09@gmail.com" target="_blank" rel="noopener norenoopnoopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+    <div class="derechos-de-autor"> Creado por Gonzalez Rangel Mª Eugenia - Wed Developer(2023) &#169;</div>
    </footer>
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
