@@ -2,23 +2,37 @@
     color: #1b1b32;
     background-color: rgb(255, 255, 255);
 }
+
 .seccion-oscura {
     color: white;
     background-color:#1b1b32}
+
 /*Barra de Navegacion*/
 
 .navbar {
-    background-color:rgb(226, 232, 238);
-}
-
-.titulo-clinica {
-font-family: 'Great Vibes', cursive;
+    background-color:  #5688a1;
+    padding: 0%;
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
 }
+
+.nav-link {
+    color: rgb(255, 255, 255);
+ } 
+
+.navbar-brand {
+    color: white;  
+    padding-top: 15px;
+    font-size: 25px;
+    font-family: 'Cinzel', serif;
+}
+
+.nav-link:hover {
+    color: rgb(101, 154, 201);
+} 
 
 /*section {
     display: flex;
@@ -28,15 +42,37 @@ font-family: 'Great Vibes', cursive;
 }*/
 /*Seccion hero*/
 .carousel-inner img {
-    width:100%; height: 49em;
+    width:100%; height: 52em;
   }
-
-/*Seccion tratamientos*/
-.tratamiento {
- padding: 40px 10px 60px 10px;
+.parrafo {
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 320px;
+    text-shadow: 2px 2px 2px rgb(40, 43, 49);
+    font-size: 20px;
 }
+.titulo {
+    font-family: 'Cinzel', serif;
+    text-shadow: 2px 2px 2px rgb(56, 60, 70);
+    font-size: 50px;
+}
+/*Seccion tratamientos*/
+.seccion-title {
+    font-family: 'Alata', sans-serif;
+    font-size: 60px;
+    color:#1e1e35;
+}
+
+.texto-interno {
+    font-family: 'Quicksand', sans-serif;
+    padding: 50px 240px;
+}
+
+.tratamiento {
+ padding: 70px 10px 100px 10px;
+}
+
 .tratamiento .row {
-    height: 320px;
+    height: 400px;
     background-color: #ffffff;
     margin: 20px;
 }
@@ -47,8 +83,10 @@ font-family: 'Great Vibes', cursive;
 }
 .tratamiento .columna {
     padding: 15px;
+    margin: 22px;
+    width: 400px;
     border: 2px solid #8080804d;
-    border-radius: 10px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,12 +95,46 @@ font-family: 'Great Vibes', cursive;
 }
 .tratamiento .columna:hover {
     color: white;
-    background-color: #1b1b32;
+    background-color: #3d4255;
 }
 .boton-trtatimiento{
     font-size: 18px;
     font-weight: bold;
     margin: 10px 0;
+}
+
+/* Seccion Clinica*/
+
+.clinica .row {
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.card-total {
+    margin: 200px 250px 200px 250px;
+}
+
+/* Seccion Especialista*/
+.especialistas {
+    height: 700px;
+}
+.card {
+    box-shadow: 10px 10px 20px #bbb3b3; 
+}
+
+.ficha {
+   width: 400px;
+   height: 400px;
+   align-items: center;
+   margin: 25px;
+   padding: 70px 40px 100px 40px;
+}
+ 
+.card-body{ 
+    display: inline-block;
+    background-color: rgb(71, 102, 129);
+    color: white;
+    font-family: 'Alata', sans-serif;
 }
 /* Seccion Testimonio*/
 .testimonios {
@@ -99,6 +171,7 @@ font-family: 'Great Vibes', cursive;
     max-width: 70%;
     font-size: 20px;
     text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 .testimonio-info p {
@@ -115,13 +188,14 @@ font-family: 'Great Vibes', cursive;
 }
 /* Piede de Pagina*/
 footer {
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .footer-logo {
-    height: 80px;
-    width: 80px;
-    margin: 10px;
+    height: 150px;
+    width: 150px;
+    margin: 8px;
+    margin-bottom: 2px;
 }
 
 .footer-texto {
@@ -155,7 +229,7 @@ footer {
 }
 
 .iconos-redes-sociales a:hover i {
-    color: black;
+    color: rgb(5, 5, 5);
 }
 
 .derechos-de-autor {
