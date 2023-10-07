@@ -10,9 +10,9 @@
 /*Barra de Navegacion*/
 
 .navbar {
-    background-color:  #5688a1;
-    padding: 0%;
-}
+    background-color: rgb(101, 154, 201);
+    padding: 0;
+} 
 
 .navbar-collapse {
     align-items: center;
@@ -25,21 +25,20 @@
 
 .navbar-brand {
     color: white;  
-    padding-top: 15px;
+    padding-top: 10px;
     font-size: 25px;
     font-family: 'Cinzel', serif;
 }
 
 .nav-link:hover {
-    color: rgb(101, 154, 201);
+    color: rgb(179, 244, 247);
 } 
 
-/*section {
-    display: flex;
+*section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}*/
+}
 /*Seccion hero*/
 .carousel-inner img {
     width:100%; height: 52em;
@@ -68,13 +67,15 @@
 }
 
 .tratamiento {
- padding: 70px 10px 100px 10px;
-}
+ padding: 70px 10px 70px 10px;
+ background-image:url(https://ortodoncia-avila.es/wp-content/uploads/2023/02/ifeuvf.png); 
+ background-size:cover;
+ height: 100%;
+} 
 
 .tratamiento .row {
-    height: 400px;
-    background-color: #ffffff;
-    margin: 20px;
+    background-color: transparent;
+    margin: 40px;
 }
 .tratamiento-titulo {
     font-size: 20px;
@@ -86,6 +87,7 @@
     margin: 22px;
     width: 400px;
     border: 2px solid #8080804d;
+    background: transparent;
     border-radius: 15px;
     display: flex;
     flex-direction: column;
@@ -94,8 +96,8 @@
     transition: all 0.2s ease-in;
 }
 .tratamiento .columna:hover {
-    color: white;
-    background-color: #3d4255;
+    color: rgb(255, 255, 255);
+    background-color: #37444d;
 }
 .boton-trtatimiento{
     font-size: 18px;
@@ -106,22 +108,36 @@
 /* Seccion Clinica*/
 
 .clinica {
-    max-width: 100%;
-    height: 600px;
-    padding: 60px 80px 50px 70px;
-    background-color: #d3eafc;
+    background-image:url(https://ortodoncia-avila.es/wp-content/uploads/2023/02/r3iuf.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 145px 0px;
 }
 
-.texto-card { 
-    display: inline-block;
-    background-color: rgb(76, 91, 105);
-    color: white;
+.seccion-title2 {
     font-family: 'Alata', sans-serif;
-    padding: 60px;
+    font-size: 50px;
+    color:#1e1e35;
+    padding: 25px 0px;
+}
+
+.img-clinica { 
+    height: 550px;
+    width: 600px;
+    margin: 5px 5px 5px 5px;
+}
+.card-text1 { 
+    color: rgb(11, 23, 44);
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
 }
 /* Seccion Especialista*/
 .especialistas {
-    max-height: 800px;
+    height: 100%;
+    background-image: url(https://ortodoncia-avila.es/wp-content/uploads/2023/02/ifeuvf.png);
+    background-size: cover;
+    padding: 75px 0px;
 }
 .card {
     box-shadow: 10px 10px 20px #bbb3b3; 
@@ -132,14 +148,13 @@
    height: 400px;
    align-items: center;
    margin: 25px;
-   padding: 70px 40px 10px 40px;
+   padding: 10px 40px 10px 40px;
 }
- 
+
 .card-body{ 
-    display: inline-block;
     background-color: rgb(71, 102, 129);
     color: white;
-    font-family: 'Alata', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 /* Seccion Testimonio*/
 .testimonios {
@@ -148,6 +163,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-image: url(https://ortodoncia-avila.es/wp-content/uploads/2023/02/ifeuvf.png);
+    background-size: cover;
 }
 
 .testimonios .carousel {
@@ -192,8 +209,9 @@
 }
 /* Contacto*/
 
-.contacto1 {
+.contacto {
     width: 100%;
+    height: 100%;
     padding-right: 10px;
     padding-left: 10px;
     margin-right: auto;
@@ -212,8 +230,8 @@
 }
 
 .formulario { 
-    height: 520x;
-    width: 520px;
+    height: 500px;
+    width: 500px;
     margin: 25px 10px 25px 20px;
 }
 
@@ -232,14 +250,16 @@
  }
 
  .form-contact h6 {
-    font-family: "HurmeGeometricSans1-SemiBold";
+    font-family: 'Quicksand', sans-serif;
     margin-bottom: 10px;
     padding: 30px 50px 5px 50px;
     color: #142225;
     text-align: center;
+    ;
 }
 
 .text-dir { 
+    font-family: 'Quicksand', sans-serif;
     padding: 0px 50px 30px 50px;
     text-align: center;
 }
